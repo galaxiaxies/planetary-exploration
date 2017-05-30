@@ -1,0 +1,41 @@
+Idea for game mechanic: production decrease over time, player works to maintain production.
+In most games the cost of production buildings/workers/elements increases exponentially (or linearly) with total number, while the main currency grows linearly and with upgrade bonuses. The idea is to have a game where the cost of a given production element stays the same, but the output deteriorates/deflates over time. Alternatively each new production element would contribute less and less.
+	instead of cost = baseCostratiocount and new production = baseProd (totalProd = baseProdcount)
+the game would be built around
+	cost = baseCost new production = baseProd/(ratiocount)
+or
+	cost = baseCost total production = baseProd*count/sqrt(gameTime)
+Are there any games like this?
+
+
+So now I'm thinking idle clicker. We'd map real time to game time at something like 1 second per year. Initially, each click would give you one new colony (and there would be some delay before you can click again). But the colonies would generate resources (money?), which you can invest in projects that either build out a tech tree, open new orbits for settlement, or cause your existing settlements to build new ones (or do so faster).
+So, just like all your idle clickers, the idea is that pretty soon you won't be clicking for most of the colony building. You'll just sit back and reap the rewards, and make high-level decisions about what to invest in and where to develop next. And, of course, feel the awesomeness of spreading life (sparkling green dots) throughout the solar system.
+The game could either run for a fixed time, and you see how big a population you can build; or it could run to a fixed population goal, and you see how quickly you can get there. Of the two, I think I prefer the fixed time. So this gives it some replayability, as you try to beat your previous score (or your friend's).
+
+Hello everyone,
+
+Here is some notes taken about an incremental game idea I had. The user has to manage a space company in charge of gathering and selling different kind of resources. The goal of the game is too optimized your space colony to increase your profit and unlock all the achievements.
+
+Core mechanic:
+	Travel to a planetary system (by using some fuel)
+	Send ships to colonize a planet
+	Build extractors to gather resources on the planet
+	Build a spacial harbor to ship and sell the resources from the planet
+
+Notes (v1.0)
+	All planetary systems, planets and resources are procedurally generated (localization, names, biomes, quantity, etc.)
+	Some resources can be used to create fuel and travel to other planetary systems
+	Sending probes gives to the player more information about a planetary system or a planet before travelling or colonizing (amount of planets, available resources, biome, etc.)
+	Each resource is more or less difficult to extract, impacting the cost and the performance of the extractors
+	Each planet has a distinct biome/type (e. g. ice planet, lava planet, gas giant, terrestrial planet, etc.) impacting the potential available resources and the difficulty (i. e. cost, duration) to colonize
+	Extractor, harbor and main ship can be upgraded (to reduce all the costs, increase performance, etc.)
+	A bunch of achievements will be available (gather X resources, colonize X planets, explore X planetary system, etc.)
+
+//Potential enhancements / ideas
+	Random events: space pirate attacks, ship breakdown, colony on strike, etc.
+	Stock Exchange: dynamic resource costs based on production/demands
+	Spacial research center: global upgrades
+	Colony management: bonus/penalty based on the quality of life in the colony
+	Space Merchants: trade resource for other resources
+
+I'll probably work on this project on my free time and share a prototype soon. Anyway, if you already have any comments or feedback I'll be glad to hear them!

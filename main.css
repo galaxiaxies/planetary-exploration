@@ -1,0 +1,100 @@
+/* table of contents
+	[1] resets and defaults
+	[2] tag styling
+	[3] ids
+		[3.1] left
+		[3.2] center
+		[3.3] right
+	[4] classes
+		[4.] dates
+*/
+
+/* [1] resets and defaults */
+* {
+	background: #fff;
+	color: #000;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Times New Roman", serif;
+}
+
+/* [1] tag styling */
+menu {
+
+	padding: 2px;
+	word-wrap: break-word;
+}
+
+hr {
+	margin-top: 3px;
+}
+
+button {
+	border: 1px black solid;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 2px;
+	text-decoration: none;
+}
+
+
+/* [3] ids */
+#container {
+	height: 95%;
+	padding: 5px;
+	width: 100%;
+}
+
+
+/* [3.1] left */
+#resources {
+	border: 1px black solid;
+	display: inline-grid;
+	height: auto;
+	margin-right: 0.5%;
+	width: 15%;
+}
+
+
+/* [3.2] center */
+#content {
+	border: 1px black solid;
+	display: inline-grid;
+	height: auto;
+	padding: 5px;
+	width: 60%;
+}
+
+#main {
+	display: inline-grid;
+	padding: 5px;
+	width: 90%;
+}
+
+
+/* [3.3] left */
+#time {
+	border: 1px black solid;
+	display: inline-grid;
+	height: auto;
+	margin-right: 2%;
+	padding: 5px;
+	width: 20%;
+}
+
+#date {
+	text-decoration: underline;
+}
+
+
+/* [4] classes */
+
+/* [4.] dates */
+.winter { color: #76a2bc; }
+.spring { color: #c187ae; }
+.summer { color: #8bc677; }
+.autumn { color: #ddbb63; }

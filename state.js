@@ -1,7 +1,11 @@
 var state = {
-	states: [
-		'resources',
-		'progress',
-		
-	]
+    init: {
+        states: [
+            'resources',
+            'progress',
+            'version',
+            'achievements',
+            'timers'
+        ]
+    }
 };
